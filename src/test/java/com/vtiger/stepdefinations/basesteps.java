@@ -31,7 +31,6 @@ public class basesteps {
 
 
     public void readproperties() throws IOException {
-        System.out.println("hello");
         prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/Configuration/setting.properties");
         prop.load(fis);
